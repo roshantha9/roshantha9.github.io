@@ -4,146 +4,273 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="style.css" />
+
+<!-- york account -->
+<!--<script>-->
+<!--  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){-->
+<!--  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),-->
+<!--  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)-->
+<!--  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');-->
+
+<!--  ga('create', 'UA-53944041-1', 'auto');-->
+<!--  ga('send', 'pageview');-->
+
+<!--</script>-->
+
+<!-- roshantha9 account -->
+<!-- ============= analytics script ============================================= -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-53944041-1', 'auto');
+  ga('create', 'UA-101735095-1', 'auto');
   ga('send', 'pageview');
-
 </script>
+
+<!-- ============= jquery related scripts ============================================= -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.education > li a').click(function() {
+	    $(this).parent().find('ul').toggle();
+	});
+
+	$('.workexp > li a').click(function() {
+	    $(this).parent().find('ul').toggle();
+	});
+
+	$('.workexp-other > li a').click(function() {
+	    $(this).parent().find('ul').toggle();
+	});
+
+	$('.statement-more-link').on('click', function () {
+			console.log("here");
+	    $('#statement-more').toggle();
+	});
+
+
+});
+</script>
+
+
+<!-- ============= Main ============================================= -->
+
 
 
 <title>Roshantha Mendis</title>
 </head>
+
+
+
 <body>
 
 <div id="wrap">
 
-<div id="header">
-	<div>
-		<img src="images/avatar.png" style="vertical-align: middle;"/>
-		<span style="vertical-align: middle; color: #F9F7ED; line-height: 100px; font-size: 20pt">Hashan Roshantha Mendis</span>		
+	<!-- ============= Header ============================================= -->
+	<div id="header">
+		<div>
+			<img src="images/avatar.png" style="vertical-align: middle;"/>
+			<span style="vertical-align: middle; color: #F9F7ED; line-height: 100px; font-size: 20pt">Roshantha Mendis</span>
+		</div>
 	</div>
-</div>
+
+	<div id="menu">
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	</ul>
+	</div>
 
 
+	<!-- ============= Main Content ============================================= -->
+	<div id="content">
+		<h2>Software Developer | Computer Science Researcher</h2>
 
-<div id="menu">
-<ul>
-<li><a href="index.html">Home</a></li>
-</ul>
-</div>
+		<!-- ============= Summary/Personal statement ============================================= -->
+		<div id="statement">
+			<p align="justify">
+				I am a self-motivated, ambitious, detail oriented software engineer and researcher. I am passionate about data analysis, multimedia and broadcast systems, real-time embedded systems and distributed platforms. I have both a strong academic background as well as 3-4 years of experience developing reliable software for a range of industries and platforms. <a class="statement-more-link" style='color:#2576f9'><b>[show/hide more]</b></a>
+			</p>
+			<div id="statement-more" style="display:none">
+				<p align="justify">
+					I have 3-4 years experience in professional software engineering and development where I have worked for businesses in the interactive-TV, broadcasting, gaming and online shopping industries. Throughout my industrial experience I have gained skills in designing scalable and robust software, developing efficient and readable code, performing integration and unit-tests to ensure the quality of the product and writing software documentation. I have had a range of professional software development experience, from writing C code running on embedded set-top-boxes to programming web and cloud-based solutions to scripting and tool development. I have had significant experience working in agile environments where the business requirements can evolve over time.
+				</p>
+				<p align="justify">
+					I have both an engineering as well as a computer science academic background. I have recently successfully defended my engineering doctorate thesis. I am the author/co-author of several papers published in international conferences and journals around the topic of my doctorate research. During my time in academia I have become highly proficient in modelling and simulation of distributed systems, heuristic-based algorithm development for adaptive systems, workload characterisation, performance measurement and data analysis. Through my educational experience, I have gained creative and analytical problem-solving skills and have improved my presentation and collaborative working and communication skills.
+				</p>
+				<p align="justify">
+					The strong desire to increase my technical knowledge makes me highly adaptable and is a reflection of my dedication to continuing my professional development as an engineer, producing work to the best of my ability and pushing the limits of what I can achieve.
+				</p>
+				<p align="justify">
+					My career objective is to obtain a research and development position where I can utilize and improve my research and technical skills in order to contribute to the required project.
+				</p>
+			</div>
+		</div>
 
-<div id="content">
+		<!-- ============= Research/professional interests ============================================= -->
+		<p>
+			<b>Research interests:</b>
+			<ul>
+				<li>Video streaming systems (enc/dec/transcoding)</li>
+				<li>Heuristic based dynamic task mapping</li>
+				<li>Multi/Many-core resource management</li>
+			</ul>
+		</p>
 
-<h2>Research student, Real-Time Sys. Group, University of York</h2>
+		<p>
+			<b>Professional interests:</b>
+			<ul>
+				<li>Large-scale IoT development (both cloud-based back-end and embedded front-end)</li>
+				<li>Big Data analysis (including visualisation and data integration and transformation)</li>
+				<li>Engineering end-to-end video delivery platforms</li>
+			</ul>
+		</p>
 
-<p>
-<b>EngD. in Large Scale Complex IT systems</b>
-</p>
-<p>
-<b>Research project title: </b> Dynamic management of on-chip multiprocessing
-platforms for multi-stream video processing
-</p>
-<p>
-<b>EngD. sponsor:</b>
-Rheon Media Ltd.
-(Digital TV, broadcasting, IPTV - technical consultancy)
-</p>
+		<!-- ============= Work experience ============================================= -->
 
-<p>
-<b>Academic supervisor:</b>
-Dr. Leandro Indrusiak
-</p>
+		<hr width="85%">
+		<b>Work experience:</b><sup style="color:red">(click on items to show/hide details!)</sup>
+		<ul class="workexp">
+			<li>
+				<a style="color:blue"><b>[2016 - 2017]:</b> Software engineer (part-time)- YottaMediaLabs Ltd., London, UK </a>
+					<ul style="display:none">
+						<li><b>Technologies: </b>AWS cloud computing, Node.js, JavaScript, Git, JIRA</li>
+						<li><b>Key responsibilities: </b>Developing hybrid digital TV registration and monitoring services using a range of AWS components such as AWS Lambda, AWS API Gateway, AWS IoT, AWS Elasticsearch, AWS Kinesis. Implementing infrastructure deployment tools using AWS SDK. Worked with 1-2 other team members.</li>
 
-<b>Research interests:</b>
-<ul>
-<li>Video processing systems (enc/dec/transcoding)</li>
-<li>Heuristic based dynamic task mapping</li>
-<li>Multi/Many-core resource management</li>
-</ul>
+					</ul>
+			</li>
 
-<hr width="75%">
-<b>Biography:</b>
-<ul>
-<li>MSc. in Digital Systems Engineering - University of York</li>
-<li>BSc. in Network and Communication Engineering - University of Westminster</li>
-</ul>
+			<li>
+				<a style="color:blue"><b>[2013 - 2016]:</b> Postgraduate Teaching Assistant - Dept. of Computer Science, University of York, UK </a>
+					<ul style="display:none">
+						<li><b>Subjects: </b>Theory and Practice of Programming (Python, Java)</li>
+						<li><b>Duties: </b>Assisting students with programming exercises, teaching fundamental programming and software design concepts. Worked with 2-3 other teaching team members.</li>
+					</ul>
+			</li>
 
+			<li>
+				<a style="color:blue"><b>[2012]:</b> Research associate - IDMI institute, National University of Singapore (NUS), Singapore </a>
+					<ul style="display:none">
+						<li><b>Technologies: </b>PostgresSQL, GIS tools (Quantum GIS, OpenStreetMaps, GoogleMaps API), Javascript (jQuery), Python, PHP, HTML/CSS, SVN</li>
+						<li><b>Key responsibilities: </b>R&D of a web-based mobile indoor navigation application development. Data from multiple sources were combined to develop outdoor and indoor maps. <a href="http://www.todayonline.com/photos/gallery-university-campus-digital-solutions-test-bed">(press coverage)</a></li>
+					</ul>
+			</li>
 
+			<li>
+				<a style="color:blue"><b>[2009 - 2012]:</b> Software Developer (contract-basis) - RheonMedia Ltd. London, UK </a>
+					<ul style="display:none">
+						<li><b>Technologies: </b>MHEG5/XML, LAMP web-services stack (Linux, Apache, MySQL, PHP), Java, Tomcat, Python, MHEG5-based iTV emulators, SVN</li>
+						<li><b>Key responsibilities: Design and development of various interactive broadcast front-end applications that run on digital TVs (e.g. TV payment gateways,  device test apps, proof of concept applications, EPG applications, MHEG video players). Design and development of various backend web-services and standalone software (data-feed producers, content and resource managers, keyservers, data aggregation and transformation tools).</b></a></li>
+					</ul>
+			</li>
 
+			<li>
+				<a style="color:blue"><b>[2009 - 2010]:</b> Database administrator (part-time) - LynkU Ltd. London, UK </a>
+					<ul style="display:none">
+						<li><b>Technologies: </b>LAMP web-services stack (Linux, Apache, MySQL, PHP), MS-SQL, MS-Access</li>
+						<li><b>Key responsibilities: Database management and maintenance, automated web crawling, automated data feed processing, data cleaning to ensure quality of DB content</b></a></li>
+					</ul>
+			</li>
 
+			<li>
+				<a style="color:blue"><b>[2008 - 2009]:</b> Software developer - PlayJam Games (Static2358 Ltd.), London, UK </a>
+					<ul style="display:none">
+						<li><b>Technologies: </b>C, C++, Perl, OpenTV SDK, TCP/IP, game and physics engines (in-house), SVN</li>
+						<li><b>Key responsibilities: Worked as part of the platform, operations and infrastructure team, interactive TV payment portal development, code porting from different STB middleware versions, code optimisation for bandwidth saving, implementing TCP/IP clients for set-top-boxes, assisting with testing and QA</b></a></li>
+					</ul>
+			</li>
 
-
-<hr width="75%">
-<b>Teaching:</b>
-<ul>
-
-<li>Theory and Practice of Programming (Postgraduate Teaching Assistant) : 2013-2016 (Autumn + Spring Terms)</li>
-
-</ul>
-
-
-
-<hr width="75%">
-
-<b>Publications (Peer reviewed conferences)</b>
-<ul>
-
-<li>Hashan Roshantha Mendis, Leandro Soares Indrusiak:
-<i><font color="#000099">Low Communication Overhead Dynamic Mapping of Multiple HEVC Video Stream Decoding on NoCs.</font></i> PARMA-DITAM Workshop 2016 </li>
-
-<li>Hashan Roshantha Mendis, Leandro Soares Indrusiak, Neil C. Audsley:
-<i><font color="#000099">Bio-inspired Distributed Task Remapping for Multiple Video Stream Decoding on Homogeneous NoCs.</font></i> ESTIMedia 2015</li>
-
-<li>Hashan Roshantha Mendis,  Leandro Soares Indrusiak:
-<i><font color="#000099">Task Allocation for Decoding Multiple Hard Real-time Video Streams on Homogeneous NoCs.</font></i> INDIN 2015</li>
-
-<li>Hashan Roshantha Mendis, Leandro Soares Indrusiak, Neil C. Audsley:
-<i><font color="#000099">Predictability and Utilisation Trade-off in the Dynamic Management of Multiple Video Stream Decoding on Network-on-Chip based Homogeneous Embedded Multi-cores.</font></i> RTNS 2014</li>
-
-</ul>
-
-
-</div>
-
-<div id="sidebar">
-<h3>Menu Navigation</h3>
-<ul>
-<li><a href="http://york.ac.uk">University of York</a></li>
-<li><a href="http://cs.york.ac.uk">Department of Computer Science</a></li>
-<li><a href="http://cs.york.ac.uk/rts/">Real-time systems group</a></li>
-</ul>
+		</ul>
 
 
+		<!-- ============= Other relavant experience ============================================= -->
+		<hr width="85%">
+		<b>Other related experience:</b><sup style="color:red">(click on items to show/hide details!)</sup>
+		<ul class="workexp-other">
+			<li>
+				<a style="color:blue"><b>[2017]:</b> Visiting research student - National Taiwan University, Taiwan</a>
+					<ul style="display:none">
+						<li><b>Description: </b>A 3-month, HiPEAC-funded, collaboration between National Taiwan University and University of York. I was collaborating with Prof. Tei-Wei Kuo and his embedded systems team at NTU and Prof. Pi-Cheng Hsiu (Research Center for Information Technology Innovation, Academia Sinica).
+						<li><b>Project title: </b>Investigating memory-traffic and memory frequency governing on smartphones executing user-centric workloads</li>
+						<li><b>Technologies: </b>Android OS and Linux kernel modification, smartphone power and performance monitoring, Android Native C programming, bash scripting, data analysis using Python</li>
+					</ul>
+			</li>
+		</ul>
 
-<h3>Attended academic events</h3>
-<ul>
-<li><a href="#" title="Embedded Systems for Real-Time Multimedia Symposium (ESWeek), Amsterdam, 2015">ESTIMEDIA, 2015</a></li>
-<li><a href="#" title="Next Generation Computational Modelling Summer Academy, University of Southampton, 2015"> NGCM Summer School 2015</a></li>
-<li><a href="#" title="IEEE Industrial Informatics 2015">INDIN 2015</a></li>
-<li><a href="#" title="ACM Real-time and Networking Systems Conference 2014">RTNS 2014</a></li>
-<li><a href="#" title="York Doctoral Symposium 2013, 2014">YDS 2013/14</a></li>
-<li><a href="#" title="Designing with Uncertainty - Opportunities & Challenges Workshop 2014">PANDA Workshop 2014</a></li>
-<li><a href="#" title="LSCITS Symposium 2013">LSCITS 2013</a></li>
-</ul>
+		<!-- ============= Education ============================================= -->
+		<hr width="85%">
+		<b>Education:</b><sup style="color:red">(click on items to show/hide details!)</sup>
 
-</div>
+		<ul class="education">
 
-<div style="clear: both;"> </div>
+		<li>
+			<a style="color:blue">EngD. <small>(Engineering Doctorate)</small> in Large Scale Complex IT systems - University of York (2010-2011)</a>
+				<ul style="display:none">
+					<li><b>Department:</b> Department of Computer Science (Real-time systems research group)</li>
+					<li><b>Thesis:</b> <i><q>Dynamic Resource Management of Network-on-Chip Platforms for Multi-stream Video Processing</q></i></li>
+					<li><b>Description:</b> This thesis considers resource management in the context of parallel, multiple, real-time video stream decoding, on many-core platforms. The targetted applications have dynamic and unpredictable characteristics. This, combined with the issue of resource contention in highly parallel systems make the problem of resource management very challenging. In this context, this thesis presents admission control techniques, blocking and application-aware runtime task allocation heuristics and a low-overhead fully distributed remapping technique in order to balance the predictability, resource utilisation and performance of the system.</li>					
+				</ul>
+		</li>
 
-<div id="columns">
+		<li>
+			<a style="color:blue">MSc. in Digital Systems Engineering - University of York (2010-2011)</a>
+			<ul style="display:none" >
+				<li><b>Department:</b> Department of Electronics</li>
+				<li><b>Final project:</b> <q>Design and Implementation of a FPGA-based music player</q></li>
+				<li><b>Description:</b> In this group project, a Field Programmable Gate Array (FPGA) based audio player had to be designed, implemented and tested from the ground-up including the PCB design. The resultant embedded system is a balance between custom reconfigurable hardware and Embedded C software running on a Xilinx Spartan 6 (with 32-bit MicroBlaze RISC soft-core processor). The final product has ability to play MP3/ADPCM encoded 16-bit stereo audio files at 24KHz (using a ported libmad MP3 library) from a microSD card. User input to the device was via buttons/rotary encoder and output was shown through the LCD screen and UART for debugging. <a href='https://www.youtube.com/watch?v=wQSW-zizEC4'>(video)</a></li>
+				<li><b>Award:</b> Distinction (78%, highest in cohort)</li>
+			</ul>
+		</li>
 
-<div style="clear: both;"> </div>
+		<li>
+			<a style="color:blue">BSc. in Network and Communication Engineering - University of Westminster (2005-2008)</a>
+			<ul style="display:none">
+				<li><b>Department:</b> Department of Electronics</li>
+				<li><b>Thesis:</b> Simulation and analysis of the GMSK and 8PSK model implementations</li>
+				<li><b>Description:</b> This thesis investigates the key properties of the GMSK and 8PSK digital modulation techniques, used in the GSM and EDGE mobile communication standards. The two modulation schemes are analysed in terms of their bit error rate performance, power spectra, inter-symbol interference distortion in gaussian noise and multi-path fading channels</li>
+				<li><b>Award:</b> 1<sup>st</sup> class honors (80%, highest in cohort)</li>
+			</ul>
+		</li>
+		</ul>
 
-</div>
+	</div>
 
-<div id="footer">
-<p>&copy; Copyright 2014 Roshantha Mendis | Design by <a href="http://www.blogliber.com">Blog Liber</a></p>
-</div>
+	<!-- ============= Sidebar ============================================= -->
+	<div id="sidebar">
+
+		<h3>Navigation</h3>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="pubs.html">Publications</a></li>
+			<li><a href="thesis.html">Thesis</a></li>
+			<li><a href="events.html">Attended events</a></li>
+			<li><a href="training.html">Training</a></li>
+			<li><a href="awards.html">Awards</a></li>
+		</ul>
+
+		<h3>Links</h3>
+		<ul>
+			<li><a href="http://york.ac.uk">University of York</a></li>
+			<li><a href="http://cs.york.ac.uk">Department of Computer Science</a></li>
+			<li><a href="http://cs.york.ac.uk">Department of Computer Science</a></li>
+			<li><a href="http://cs.york.ac.uk/rts/">Real-time systems group</a></li>
+		</ul>
+
+	</div>
+
+	<div style="clear: both;"> </div>
+
+	<div id="columns">
+
+	<div style="clear: both;"> </div>
+
+	</div>
+
+	<div id="footer">
+	<p>&copy; Copyright 2014 Roshantha Mendis | Design by <a href="http://www.blogliber.com">Blog Liber</a></p>
+	</div>
 
 </div>
 
