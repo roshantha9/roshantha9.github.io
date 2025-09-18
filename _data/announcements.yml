@@ -1,0 +1,16 @@
+# announcements.yml
+# Add announcements to be displayed on the front page of al-folio theme.
+# Each announcement should have a title, date, and content.
+
+- title: "Welcome to My Website!"
+  date: "2025-09-18"
+  content: "Check out the latest updates and projects on my personal site."
+
+- title: "New Blog Post Released"
+  date: "2024-06-05"
+  content: "Read my new article on data science best practices."
+
+
+
+
+
