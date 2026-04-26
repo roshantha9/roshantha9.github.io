@@ -14,9 +14,7 @@ division, first class of 2020)
 - Regular Postdoctoral Scholar (appointed by Academia Sinica during 2022-2023)
 - Best Paper Award, IEEE/ACM CODES+ISSS 2020 (Virtual) and 2021 (Virtual)
 - Best Paper Nominations, IEEE/ACM CODES+ISSS 2019 (USA), 2023 (Germany), 2025 (Taiwan)
-- High Performance and Embedded Architecture and Compilation (HiPEAC) Collaboration Grant (2016/2017). (Funding:
-€ 5000 EUR)
+- High Performance and Embedded Architecture and Compilation (HiPEAC) Collaboration Grant (2016/2017).
 - Best Student Paper Award - SIGMAP 2016 (Portugal)
-- Engineering and Physical Sciences Research Council (EPSRC), PhD/EngD. scholarship (2012-2016) (Funding: £14k
-GBP per year for 4 years)
-- Engineering Bronze Medal Winner - Dept. of Electronics, Uni. of Westminster (2018) (Prize: £100 GBP)
+- Engineering and Physical Sciences Research Council (EPSRC), PhD/EngD. scholarship (2012-2016)
+- Engineering Bronze Medal Winner - Dept. of Electronics, Uni. of Westminster (2018)
