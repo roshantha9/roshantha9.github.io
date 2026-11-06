@@ -188,9 +188,22 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
-        <a class="award btn btn-sm z-depth-0" role="button">
-          {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
-        </a>
+        <!-- Non-clickable award label; nominations are styled more softly -->
+        {% assign award_text_lower = entry.award | downcase %}
+        {% if award_text_lower contains 'nomination' %}
+          {% assign award_bg_color = 'rgba(227, 227, 227, 0.10)' %}
+          {% assign award_border_color = 'rgba(181, 181, 181, 0.80)' %}
+        {% else %}
+          {% assign award_bg_color = 'rgba(225, 175, 65, 0.23)' %}
+          {% assign award_border_color = 'rgba(222, 38, 38, 0.40)' %}
+        {% endif %}
+        <span
+          class="award-highlight"
+          style="display: inline-block; max-width: 100%; margin: 0 0.25rem 0.25rem 0; padding: 0.3rem 0.65rem; border-radius: 0.375rem; background-color: {{ award_bg_color }}; border: 1px solid {{ award_border_color }}; color: inherit; font-size: 0.875rem; line-height: 1.4; vertical-align: middle;"
+        >
+          {% if entry.award_name %}<strong>{{ entry.award_name }}</strong>{% endif %}
+          <span{% if entry.award_name %} style="margin-left: 0.35rem;"{% endif %}>{{ entry.award | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+        </span>
       {% endif %}
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
@@ -337,13 +350,6 @@
           {% endif %}
         </div>
       {% endif %}
-    {% endif %}
-
-    {% if entry.award %}
-      <!-- Hidden Award block -->
-      <div class="award hidden d-print-inline">
-        <p>{{ entry.award | markdownify }}</p>
-      </div>
     {% endif %}
 
     {% if entry.abstract %}

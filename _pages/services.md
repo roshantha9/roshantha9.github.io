@@ -8,6 +8,10 @@ nav_order: 4
 *Editorial*
  - Associate Editor, IEEE Embedded Systems Letters (ESL), 2025 - present
 
+*Conference Services* 
+ - Track Co-Chair, ACM Symposium on Applied Computing (SAC) (2026)
+ - Session Chair: CODES 2026, ENSys 2024, ISLPED 2020
+
 *Technical Program Committee* 
  - IEEE International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA), 2026
  - ACM Symposium on Applied Computing (SAC), 2021 - 2026
